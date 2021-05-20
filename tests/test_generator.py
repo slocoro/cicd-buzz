@@ -20,6 +20,9 @@ def test_generate_buzz_of_at_least_five_words():
     assert len(phrase.split()) >= 5
 
 def test_addition():
-
     assert 1+1 == 2
+
+
+def test_subtraction():
+    assert 1-1 == 0
 
