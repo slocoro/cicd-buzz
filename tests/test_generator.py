@@ -19,4 +19,7 @@ def test_generate_buzz_of_at_least_five_words():
     phrase = generator.generate_buzz()
     assert len(phrase.split()) >= 5
 
+def test_addition():
+
+    assert 1+1 == 2
 
